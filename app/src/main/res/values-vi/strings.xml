@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cắt và Dán Ảnh</string>
+    <string name="Backgrounds">Mẫu nền</string>
+    <string name="Foregrounds">Nền trước</string>
+    <string name="Stickers">Hình dán</string>
+    <string name="Cancel">Hủy</string>
+    <string name="Done">Làm xong</string>
+    <string name="SampleText">Văn bản Mẫu</string>
+    <string name="Keyboard">Bàn phím</string>
+    <string name="Color">Màu</string>
+    <string name="HelpSettings">Trợ giúp &amp; Hỗ trợ</string>
+    <string name="Store">Cửa hàng</string>
+    <string name="Help">Cứu giúp</string>
+    <string name="TellAFriend">Nói với một người bạn</string>
+    <string name="ContactUs">Liên hệ chúng tôi</string>
+    <string name="ShareApp">Chia sẻ ứng dụng</string>
+    <string name="RateUs">Ôn tập</string>
+    <string name="Font">Phông chữ</string>
+    <string name="FollowUs">Liên hệ chúng tôi</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Instagram">Instagram</string>
+    <string name="LinkedIn">LinkedIn</string>
+    <string name="TellAFriendMessage">Tôi thấy ứng dụng này rất hữu ích. Tôi nghĩ bạn cũng thích nó! Kiểm tra nó ra:</string>
+    <string name="AppLink">Liên kết ứng dụng</string>
+    <string name="CutPastePhoto">Cut Paste Photo</string>
+    <string name="ContactUsTitle">Phản hồi cho Cắt dán ảnh</string>
+    <string name="ContactUsBody">Soạn thư của bạn ở đây ..</string>
+    <string name="DeviceOS">Device OS: Android</string>
+    <string name="version">Device OS version: </string>
+    <string name="AppVersion">App Version: </string>
+    <string name="DeviceBrand">Device Brand: </string>
+    <string name="DeviceModel">Device Model: </string>
+    <string name="DeviceManufacturer">Device Manufacturer:</string>
+    <string name="Share">Chia sẻ</string>
+    <string name="SaveToAlbum">Lưu vào Thư viện Ảnh</string>
+    <string name="Filter">Bộ lọc</string>
+    <string name="Blend">trộn</string>
+    <string name="ShareURLMessage">Hãy để tôi đề nghị bạn ứng dụng này</string>
+    <string name="CompanyName">Odyssey Apps Ltd.</string>
+    <string name="Offset">Khoảng cách Offset</string>
+    <string name="Size">Kích thước</string>
+
+    <string name="AdvertisementsTitle">Quảng cáo và Định dạng Ngoại tuyến</string>
+    <string name="TextFontsTitle">Phông chữ Văn bản</string>
+    <string name="TextColorsTitle">Màu văn bản</string>
+    <string name="RemoveAdvertisements">Xóa quảng cáo và cách sử dụng ngoại tuyến</string>
+    <string name="UnlockBackground">Mở khóa 100 mẫu nền độc đáo</string>
+    <string name="UnlockStickers">Mở 100 Hình dán Hài hước</string>
+    <string name="UnlockColors">Mở khóa màu văn bản tuyệt vời 70+</string>
+    <string name="UnlockFonts">Mở khóa 60 văn bản kiểu thời trang</string>
+    <string name="Restore">Khôi phục</string>
+    <string name="BuyPro">Mua</string>
+    <string name="Crop">Cắt tỉa</string>
+    <string name="PHOTO_LIBRARY">THƯ VIỆN ẢNH</string>
+    <string name="CAMERA">MÁY ẢNH</string>
+    <string name="Settings">Cài đặt</string>
+
+    <string name="PRO_VERSION">NÂNG CẤP LÊN PRO</string>
+    <string name="Apply">Ứng dụng</string>
+    <string name="DeleteFromGallery">Xóa khỏi Thư viện</string>
+    <string name="Yes">Vâng</string>
+    <string name="No">Không</string>
+    <string name="AppExitMessage">Bạn có muốn thoát không?</string>
+    <string name="NoInternetConnection">Không có kết nối Internet!</string>
+    <string name="OK">OK</string>
+    <string name="NoInternetMessage">Bạn phải kết nối với kết nối dữ liệu internet hoặc bạn có thể sử dụng CutPaste trong ngoại tuyến ngay bây giờ và xóa tất cả quảng cáo gây phiền nhiễu mãi mãi bằng cách mua \'Hủy bỏ Quảng cáo và Usages Ngoại tuyến\'</string>
+    <string name="NoForegroundAdded">Không có Foreground Added</string>
+    <string name="CompleteActionUsing">Hoàn thành hành động bằng cách sử dụng</string>
+    <string name="ShareImage">Chia sẻ hình ảnh</string>
+    <string name="CropAndApply">Cắt và Ứng dụng</string>
+    <string name="SaveToForegroundGallery">Lưu vào Nền trước</string>
+    <string name="SaveToPhotoAlbum">Lưu vào Thư viện Ảnh</string>
+        <string name="RestoreToast">Các giao dịch mua của bạn đã được khôi phục.</string>
+        <string name="SuccessfullySaveForegroundGallery">Đã lưu thành công vào Thư viện Mới.</string>
+    <string name="SuccessfullySavePhotoAlbum">Đã lưu thành công vào Album ảnh.</string>
+    <string name="text">空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。</string>
+    <string name="AreYouSureMsg">Bạn có chắc muốn xóa ảnh này không?</string>
+    <string name="GoSettingsMsg">Cần truy cập vào Ảnh và Lưu trữ\n
+Hãy CutPastePhoto Truy cập Ảnh và Lưu trữ của bạn để tạo và lưu ảnh đã chỉnh sửa. Bạn luôn có thể thay đổi quyền của mình bằng cách đi tới Cài đặt / Ứng dụng / CutPastePhoto / Quyền.</string>
+
+    <string name="ChangeBG">Thay đổi</string>
+    <string name="EditBG">Chỉnh sửa</string>
+    <string name="MoreApps">Thêm nhiều ứng dụng</string>
+
+    <string name="Eventbrite_Cover_Image">Eventbrite Bìa</string>
+    <string name="Etsy_Cover">Etsy Bìa</string>
+    <string name="Wattpad_Cover">Wattpad Bìa</string>
+    <string name="Youtube_Channel_Cover">Youtube Kênh Bìa</string>
+    <string name="Youtube_Video_Thumbnail">Youtube Video Thumbnail</string>
+    <string name="LinkedIn_Background">LinkedIn nền</string>
+    <string name="LinkedIn_Post">LinkedIn bài viết</string>
+    <string name="Pinterest_Pin">Pinterest Pin</string>
+    <string name="Twitter_Header">Twitter Tiêu đề</string>
+    <string name="Twitter_Landscape">Twitter bài viết Cảnh</string>
+    <string name="Instagram_Landscape">Instagram Cảnh bài viết</string>
+    <string name="Instagram_Portrait">Instagram Chân dung bài viết</string>
+    <string name="Facebook_Event">Sự kiện Facebook</string>
+    <string name="Facebook_Profile">Thông tin cá nhân trên Facebook</string>
+    <string name="Facebook_Cover_Mobile">Facebook Page Mobile</string>
+    <string name="Facebook_Cover_Desktop">Máy tính để bàn trang Facebook</string>
+    <string name="Facebook_Portrait">Bài đăng trên Facebook chân dung</string>
+    <string name="Facebook_Landscape">Bài đăng trên Facebook</string>
+    <string name="square">Vuông</string>
+    <string name="original">Nguyên</string>
+
+    <string name="CropFrameTitle">Tỷ lệ cắt</string>
+    <string name="UnlockCropFrame">Mở khóa tất cả tỷ lệ cắt khía cạnh</string>
+
+</resources>

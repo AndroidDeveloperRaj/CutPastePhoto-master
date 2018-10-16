@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#566573</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="sticker_border">#ff666666</color>
+    <color name="installbtn">#31e4a0</color>
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical"
+    tools:context="com.odyssey.apps.cutpastephoto.MainActivity">
+    <!--android:background="#efefef"-->
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/black"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <!--android:background="#ffffff"-->
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:background="@drawable/bg_button"
+                android:onClick="addBackground" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"/>
+
+            <!--android:onClick="testReplace"-->
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fg_button"
+                android:onClick="addForeground" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"/>
+
+            <!--android:onClick="testRemove"-->
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/smiley_button"
+                android:onClick="addSmiles" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"/>
+
+            <!--android:onClick="testRemoveAll"-->
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/text_button"
+                android:onClick="addText" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"/>
+
+            <!--android:onClick="testLock"-->
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/blend_button"
+                android:onClick="addBlend" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"/>
+
+            <!--android:onClick="testAdd"-->
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/filter_button"
+                android:onClick="addFilter" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"/>
+
+            <!--android:onClick="testAdd"-->
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/share_button"
+                android:onClick="saveAndShare" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"/>
+
+            <!--android:onClick="testAdd"-->
+            <!--<Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/cart_normal"
+
+                android:onClick="Cart" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+-->
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/more_normal"
+
+                android:onClick="More" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"/>
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/info_normal"
+
+                android:onClick="Info" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <com.odyssey.apps.cutpastephoto.StickerView
+        android:id="@+id/sticker_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#efefef"
+        android:backgroundTint="#efefef"
+        app:layout_constraintBottom_toTopOf="@+id/AMAdmob"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:showBorder="true"
+        app:showIcons="true">
+        <!--android:background="#efefef"-->
+        <!--android:backgroundTint="#efefef"-->
+
+        <ImageView
+            android:id="@+id/BgImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/bg2" />
+
+    </com.odyssey.apps.cutpastephoto.StickerView>
+
+    <FrameLayout
+        android:id="@+id/AMAdmob"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/horizontalScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sticker_view">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/gridViewLayout"
+        android:layout_width="290dp"
+        android:layout_height="390dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#dfdfdf"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/AMAdmob"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!--android:background="#99c9c7c7"-->
+
+        <RelativeLayout
+            android:id="@+id/stickerTopbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#dfdfdf"
+            android:visibility="visible">
+            <!--android:background="#99dad8d8"-->
+
+            <TextView
+                android:id="@+id/gridViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp"
+                android:text="@string/Stickers"
+                android:textColor="#4c4d4e"
+                android:background="@drawable/round"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="40dp"
+                android:layout_height="52dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:drawable/ic_notification_clear_all"
+                android:onClick="crossAction"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="280dp"
+            android:layout_height="340dp"
+            android:layout_alignParentLeft="false"
+            android:layout_below="@id/stickerTopbar"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:background="#fff"
+            android:columnWidth="80dp"
+            android:gravity="center"
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="108dp" />
+        <!--android:background="#00c9c7c7"-->
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/helpImageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#fff"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/helpImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>

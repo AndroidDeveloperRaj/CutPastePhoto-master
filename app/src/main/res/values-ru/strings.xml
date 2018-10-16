@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CutPastePhoto</string>
+    <string name="Backgrounds">Задний план</string>
+    <string name="Foregrounds">Передний план</string>
+    <string name="Stickers">Наклейки</string>
+    <string name="Cancel">Отмена</string>
+    <string name="Done">Готово</string>
+    <string name="SampleText">Образец текста</string>
+    <string name="Keyboard">клавиатура</string>
+    <string name="Color">цвет</string>
+    <string name="HelpSettings">Помощь &amp; Поддержка</string>
+    <string name="Store">Магазин</string>
+    <string name="Help">Помогите</string>
+    <string name="TellAFriend">Расскажи другу</string>
+    <string name="ContactUs">Свяжитесь с нами</string>
+    <string name="ShareApp">Поделиться приложением</string>
+    <string name="RateUs">Дайте обзор</string>
+    <string name="Font">шрифты</string>
+    <string name="FollowUs">Свяжитесь с нами</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Instagram">Instagram</string>
+    <string name="LinkedIn">LinkedIn</string>
+    <string name="TellAFriendMessage">Я считаю это приложение очень полезным. Думаю, тебе тоже может понравиться! Проверьте это:</string>
+    <string name="AppLink">Ссылка приложения</string>
+    <string name="CutPastePhoto">Cut Paste Photo</string>
+    <string name="ContactUsTitle">Обратная связь для Вырезать пасту Фото</string>
+    <string name="ContactUsBody">Составьте свое сообщение здесь ..</string>
+    <string name="DeviceOS">Device OS: Android</string>
+    <string name="version">Device OS version: </string>
+    <string name="AppVersion">App Version: </string>
+    <string name="DeviceBrand">Device Brand: </string>
+    <string name="DeviceModel">Device Model: </string>
+    <string name="DeviceManufacturer">Device Manufacturer:</string>
+    <string name="Share">Поделиться</string>
+    <string name="SaveToAlbum">Сохранить в фотоальбоме</string>
+    <string name="Filter">Фильтр</string>
+    <string name="Blend">Cмесь</string>
+    <string name="ShareURLMessage">Позвольте мне порекомендовать вам это приложение</string>
+    <string name="CompanyName">Odyssey Apps Ltd.</string>
+    <string name="Offset">Расстояние смещения</string>
+    <string name="Size">Размер</string>
+
+    <string name="AdvertisementsTitle">Объявления и использование в автономном режиме</string>
+    <string name="TextFontsTitle">Текстовые шрифты</string>
+    <string name="TextColorsTitle">Текстовые цвета</string>
+    <string name="RemoveAdvertisements">Удаление рекламы и офлайн-использования</string>
+    <string name="UnlockBackground">Разблокируйте 100+ уникальных шаблонов фона</string>
+    <string name="UnlockStickers">Разблокировать 100+ смешные наклейки</string>
+    <string name="UnlockColors">Разблокировать 70 + Amazing Text Colors</string>
+    <string name="UnlockFonts">Разблокировать 60 + стильные шрифты</string>
+    <string name="Restore">Восстановить</string>
+    <string name="BuyPro">Купить</string>
+    <string name="Crop">Порез</string>
+    <string name="PHOTO_LIBRARY">ФОТО БИБЛИОТЕКА</string>
+    <string name="CAMERA">КАМЕРЫ</string>
+    <string name="Settings">Настройки</string>
+
+    <string name="PRO_VERSION">ОБНОВЛЕНИЕ К ПРО</string>
+    <string name="Apply">Подать заявление</string>
+    <string name="DeleteFromGallery">Удалить из галереи</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="AppExitMessage">Вы хотите выйти?</string>
+    <string name="NoInternetConnection">Нет соединения с интернетом!</string>
+    <string name="OK">ОК</string>
+    <string name="NoInternetMessage">Вы должны быть подключены к интернет-соединению данных, или вы можете использовать CutPaste в автономном режиме и удалять все раздражающие рекламные объявления навсегда, покупая «Удалить рекламу и автономное использование»,</string>
+    <string name="NoForegroundAdded">Нет переднего плана.</string>
+    <string name="CompleteActionUsing">Завершить действие с помощью</string>
+    <string name="ShareImage">Поделиться</string>
+    <string name="CropAndApply">Кадрировать И Применять</string>
+    <string name="SaveToForegroundGallery">Сохранить на передний план</string>
+    <string name="SaveToPhotoAlbum">Сохранить в фотоальбоме</string>
+        <string name="RestoreToast">Ваши покупки были восстановлены.</string>
+        <string name="SuccessfullySaveForegroundGallery">Успешно сохранена в галерее переднего плана.</string>
+    <string name="SuccessfullySavePhotoAlbum">Успешно сохранено в фотоальбоме.</string>
+    <string name="text">空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。</string>
+    <string name="AreYouSureMsg">Вы уверены в том, что хотите удалить данное изображение?</string>
+    <string name="GoSettingsMsg">Нужен доступ к фотографиям и хранилищу\n
+Позвольте CutPastePhoto Доступ к вашим фотографиям и хранилищу для создания и сохранения отредактированных фотографий. Вы всегда можете изменить свое разрешение, выбрав «Настройки / Приложения / CutPastePhoto / Разрешения».</string>
+
+    <string name="ChangeBG">Заменить</string>
+    <string name="EditBG">Изменить</string>
+    <string name="MoreApps">Больше приложений</string>
+
+
+    <string name="Eventbrite_Cover_Image">Eventbrite обложка</string>
+    <string name="Etsy_Cover">Etsy Обложка</string>
+    <string name="Wattpad_Cover">Wattpad Обложка</string>
+    <string name="Youtube_Channel_Cover">Крышка канала Youtube</string>
+    <string name="Youtube_Video_Thumbnail">Миниатюра видео Youtube</string>
+    <string name="LinkedIn_Background">LinkedIn фон</string>
+    <string name="LinkedIn_Post">LinkedIn сообщение</string>
+    <string name="Pinterest_Pin">Pinterest Pin</string>
+    <string name="Twitter_Header">Заголовок Twitter</string>
+    <string name="Twitter_Landscape">Twitter Пейзаж</string>
+    <string name="Instagram_Landscape">Instagram Пейзаж</string>
+    <string name="Instagram_Portrait">Instagram Портрет</string>
+    <string name="Facebook_Event">Facebook Обложка события</string>
+    <string name="Facebook_Profile">Обложка для профиля Facebook</string>
+    <string name="Facebook_Cover_Mobile">Обложка страницы Facebook</string>
+    <string name="Facebook_Cover_Desktop">Обложка страницы Facebook PC</string>
+    <string name="Facebook_Portrait">Почта Facebook Портрет</string>
+    <string name="Facebook_Landscape">Пейзаж в Facebook</string>
+    <string name="square">Квадрат</string>
+    <string name="original">Оригинал</string>
+
+    <string name="CropFrameTitle">Режущее Соотношение</string>
+    <string name="UnlockCropFrame">Разблокировать все Соотношение сторон</string>
+
+</resources>

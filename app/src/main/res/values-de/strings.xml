@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CutPastePhoto</string>
+    <string name="Backgrounds">Hintergründe</string>
+    <string name="Foregrounds">Vordergrund</string>
+    <string name="Stickers">Aufkleber</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Done">Erledigt</string>
+    <string name="SampleText">Beispieltext</string>
+    <string name="Keyboard">Tastatur</string>
+    <string name="Color">Farbe</string>
+    <string name="HelpSettings">Hilfe &amp; Unterstützung</string>
+    <string name="Store">Geschäft</string>
+    <string name="Help">Hilfe</string>
+    <string name="TellAFriend">Weiterempfehlen</string>
+    <string name="ContactUs">Kontaktiere uns</string>
+    <string name="ShareApp">App teilen</string>
+    <string name="RateUs">Geben Sie Bewertung</string>
+    <string name="Font">Schriftarten</string>
+    <string name="FollowUs">Kontaktiere uns</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Instagram">Instagram</string>
+    <string name="LinkedIn">LinkedIn</string>
+    <string name="TellAFriendMessage">Ich finde diese App sehr hilfreich. Ich denke du magst es auch! Hör zu:</string>
+    <string name="AppLink">App-Link</string>
+    <string name="CutPastePhoto">Cut Paste Photo</string>
+    <string name="ContactUsTitle">Feedback für Ausschneiden Foto einfügen</string>
+    <string name="ContactUsBody">Verfasse deine Nachricht hier ..</string>
+    <string name="DeviceOS">Device OS: Android</string>
+    <string name="version">Device OS version: </string>
+    <string name="AppVersion">App Version: </string>
+    <string name="DeviceBrand">Device Brand: </string>
+    <string name="DeviceModel">Device Model: </string>
+    <string name="DeviceManufacturer">Device Manufacturer:</string>
+    <string name="Share">Teilen</string>
+    <string name="SaveToAlbum">Auf FotoGalerie speichern</string>
+    <string name="Filter">Filtern</string>
+    <string name="Blend">Mischung</string>
+    <string name="ShareURLMessage">Lassen Sie mich Ihnen diese Anwendung empfehlen</string>
+    <string name="CompanyName">Odyssey Apps Ltd.</string>
+    <string name="Offset">Versatzabstand</string>
+    <string name="Size">Größe</string>
+
+    <string name="AdvertisementsTitle">Werbung und Offline-Nutzung</string>
+    <string name="TextFontsTitle">Schriftarten</string>
+    <string name="TextColorsTitle">Textfarben</string>
+    <string name="RemoveAdvertisements">Entfernen Sie Werbung und Offline-Verwendungen</string>
+    <string name="UnlockBackground">Entsperren Sie 100+ einzigartige Hintergrundvorlagen</string>
+    <string name="UnlockStickers">Entsperren Sie 100+ atemberaubende Sticker</string>
+    <string name="UnlockColors">Entsperren Sie 70+ erstaunliche Textfarben</string>
+    <string name="UnlockFonts">Entsperren Sie 60+ stilvolle Schriftarten</string>
+    <string name="Restore">Wiederherstellen</string>
+    <string name="BuyPro">Kaufen</string>
+    <string name="Crop">Zuschneiden</string>
+    <string name="PHOTO_LIBRARY">FOTO BIBLIOTHEK</string>
+    <string name="CAMERA">KAMERA</string>
+    <string name="Settings">Einstellungen</string>
+
+    <string name="PRO_VERSION">UPGRADE AUF PRO</string>
+    <string name="Apply">Sich bewerben</string>
+    <string name="DeleteFromGallery">Aus Galerie löschen</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nein</string>
+    <string name="AppExitMessage">Möchtest du aussteigen?</string>
+    <string name="NoInternetConnection">Keine Internetverbindung!</string>
+    <string name="OK">OK</string>
+    <string name="NoInternetMessage">Sie müssen mit Internet-Datenverbindung verbunden sein oder Sie können CutPaste jetzt offline verwenden und alle lästigen Werbeanzeigen für immer entfernen, indem Sie "Entfernen von Werbung und Offline-Verwendungen" kaufen.</string>
+    <string name="NoForegroundAdded">Kein Vordergrund hinzugefügt</string>
+    <string name="CompleteActionUsing">Aktion zu Ende führen</string>
+    <string name="ShareImage">Bild teilen</string>
+    <string name="CropAndApply">Zuschneiden Und Bewerben</string>
+    <string name="SaveToForegroundGallery">Auf Vordergrund speichern</string>
+    <string name="SaveToPhotoAlbum">Auf FotoGalerie speichern</string>
+    <string name="RestoreToast">Ihre Einkäufe wurden wiederhergestellt.</string>
+    <string name="SuccessfullySaveForegroundGallery">Erfolgreich in Vordergrund Galerie gespeichert.</string>
+    <string name="SuccessfullySavePhotoAlbum">Erfolgreich in Fotoalbum gespeichert.</string>
+    <string name="text">空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。</string>
+    <string name="AreYouSureMsg">Möchtest du dieses Bild wirklich löschen?</string>
+    <string name="GoSettingsMsg">Benötigen Sie Zugang zu Fotos und Speicherplatz\n
+Lassen Sie CutPastePhoto Zugriff auf Ihre Fotos und Ihren Speicher, um bearbeitete Fotos zu erstellen und zu speichern. Du kannst deine Erlaubnis immer ändern, indem du zu Einstellungen / Apps / CutPastePhoto / Berechtigungen gehst.</string>
+
+    <string name="ChangeBG">Hintergrund ändern</string>
+    <string name="EditBG">Hintergrund bearbeiten</string>
+    <string name="MoreApps">Mehr Apps</string>
+
+    <string name="Eventbrite_Cover_Image">Eventbrite Titelbild</string>
+    <string name="Etsy_Cover">Etsy Abdeckung</string>
+    <string name="Wattpad_Cover">Wattpad Abdeckung</string>
+    <string name="Youtube_Channel_Cover">Youtube Kanalabdeckung</string>
+    <string name="Youtube_Video_Thumbnail">Youtube Videodummail</string>
+    <string name="LinkedIn_Background">LinkedIn Hintergrund</string>
+    <string name="LinkedIn_Post">LinkedIn Beitrag</string>
+    <string name="Pinterest_Pin">Pinterest Pin</string>
+    <string name="Twitter_Header">Twitter Kopfzeile</string>
+    <string name="Twitter_Landscape">Twitter Beitrag Landschaft</string>
+    <string name="Instagram_Landscape">Instagram Landschaftspost</string>
+    <string name="Instagram_Portrait">Instagram Porträtbeitrag</string>
+    <string name="Facebook_Event">Facebook Ereignis Abdeckung</string>
+    <string name="Facebook_Profile">Facebook Profilabdeckung</string>
+    <string name="Facebook_Cover_Mobile">Facebook Seitenabdeckung Mobil</string>
+    <string name="Facebook_Cover_Desktop">Facebook Seitenabdeckung Desktop</string>
+    <string name="Facebook_Portrait">Facebook Porträtbeitrag</string>
+    <string name="Facebook_Landscape">Facebook Landschaftspfosten</string>
+    <string name="square">Platz</string>
+    <string name="original">original</string>
+
+    <string name="CropFrameTitle">Seitenverhältnisse</string>
+    <string name="UnlockCropFrame">Schalte alle Cropping Seitenverhältnis</string>
+
+</resources>

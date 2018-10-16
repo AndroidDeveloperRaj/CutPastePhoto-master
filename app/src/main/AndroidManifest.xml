@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.odyssey.apps.cutpastephoto">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+
+    //add code for tablet start from here
+
+    <compatible-screens>
+        <!-- all small size screens -->
+        <screen android:screenSize="small" android:screenDensity="ldpi" />
+        <screen android:screenSize="small" android:screenDensity="mdpi" />
+        <screen android:screenSize="small" android:screenDensity="hdpi" />
+        <screen android:screenSize="small" android:screenDensity="xhdpi" />
+
+        <!--all normal size screens -->
+        <screen android:screenSize="normal" android:screenDensity="ldpi" />
+        <screen android:screenSize="normal" android:screenDensity="mdpi" />
+        <screen android:screenSize="normal" android:screenDensity="hdpi" />
+        <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+
+        <!-- all large size screens -->
+        <screen android:screenSize="large" android:screenDensity="ldpi" />
+        <screen android:screenSize="large" android:screenDensity="mdpi" />
+        <screen android:screenSize="large" android:screenDensity="hdpi" />
+        <screen android:screenSize="large" android:screenDensity="xhdpi" />
+
+        <!-- all xlarge size screens -->
+        <screen android:screenSize="xlarge" android:screenDensity="ldpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="mdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="hdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
+
+        <!-- Special case for Nexus 7 -->
+        <screen android:screenSize="large" android:screenDensity="213" />
+    </compatible-screens>
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="false" />
+
+    //add code for tablet end from here
+
+
+    <!--<uses-feature android:name="android.hardware.camera"-->
+        <!--android:required="true" />-->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- changed icon and round icon drawable to mipmap -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cut_and_paste"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cut_and_paste_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+
+        <activity android:name="com.odyssey.apps.cutpastephoto.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.odyssey.apps.cutpastephoto.MainActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name="com.odyssey.apps.cutpastephoto.EraseActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.odyssey.apps.cutpastephoto.More.MoreAppsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.odyssey.apps.cutpastephoto.AddText.EditTextActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.odyssey.apps.cutpastephoto.CropActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.odyssey.apps.cutpastephoto.CropActivity2"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.odyssey.apps.cutpastephoto.FilterActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.odyssey.apps.cutpastephoto.BlendActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.odyssey.apps.cutpastephoto.Settings.SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.odyssey.apps.cutpastephoto.IAP.IAPActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.odyssey.apps.cutpastephoto.Admobs.AdmobsActivitySample"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

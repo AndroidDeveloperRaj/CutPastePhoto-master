@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CutPastePhoto</string>
+    <string name="Backgrounds">배경</string>
+    <string name="Foregrounds">전경</string>
+    <string name="Stickers">스티커</string>
+    <string name="Cancel">취소</string>
+    <string name="Done">끝난</string>
+    <string name="SampleText">샘플 텍스트</string>
+    <string name="Keyboard">건반</string>
+    <string name="Color">색깔</string>
+    <string name="HelpSettings">도움말 &amp; 지원</string>
+    <string name="Store">저장</string>
+    <string name="Help">도움</string>
+    <string name="TellAFriend">친구에게 알리기</string>
+    <string name="ContactUs">문의하기</string>
+    <string name="ShareApp">앱 공유</string>
+    <string name="RateUs">리뷰 줘</string>
+    <string name="Font">글꼴</string>
+    <string name="FollowUs">문의하기</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Instagram">Instagram</string>
+    <string name="LinkedIn">LinkedIn</string>
+    <string name="TellAFriendMessage">나는이 응용 프로그램이 매우 유용하다고 생각한다. 나는 네가 그걸 좋아할 것 같아! 확인 해봐:</string>
+    <string name="AppLink">앱 링크</string>
+    <string name="CutPastePhoto">Cut Paste Photo</string>
+    <string name="ContactUsTitle">잘라 붙여 넣기 사진에 대한 피드백</string>
+    <string name="ContactUsBody">여기에 메시지를 작성하십시오.</string>
+    <string name="DeviceOS">Device OS: Android</string>
+    <string name="version">Device OS version: </string>
+    <string name="AppVersion">App Version: </string>
+    <string name="DeviceBrand">Device Brand: </string>
+    <string name="DeviceModel">Device Model: </string>
+    <string name="DeviceManufacturer">Device Manufacturer:</string>
+    <string name="Share">공유</string>
+    <string name="SaveToAlbum">갤러리에 저장</string>
+    <string name="Filter">필터</string>
+    <string name="Blend">혼합</string>
+    <string name="ShareURLMessage">이 응용 프로그램을 추천 해 드리겠습니다.</string>
+    <string name="CompanyName">Odyssey Apps Ltd.</string>
+    <string name="Offset">오프셋 거리</string>
+    <string name="Size">크기</string>
+
+    <string name="AdvertisementsTitle">광고 및 오프라인 사용</string>
+    <string name="TextFontsTitle">텍스트 폰트</string>
+    <string name="TextColorsTitle">텍스트 색상</string>
+    <string name="RemoveAdvertisements">광고 및 오프라인 사용을 제거하십시오.</string>
+    <string name="UnlockBackground">100 개 이상의 독특한 배경 템플릿 잠금 해제</string>
+    <string name="UnlockStickers">100 개 개가 넘는 놀라운 스티커를 잠금 해제</string>
+    <string name="UnlockColors">70 개 이상의 놀라운 텍스트 색상을 잠금 해제</string>
+    <string name="UnlockFonts">60 개 이상의 세련된 텍스트 글꼴 잠금 해제</string>
+    <string name="Restore">복원</string>
+    <string name="BuyPro">사다</string>
+    <string name="Crop">자르기</string>
+    <string name="PHOTO_LIBRARY">사진 라이브러리</string>
+    <string name="CAMERA">카메라</string>
+    <string name="Settings">설정</string>
+
+    <string name="PRO_VERSION">프로로 업그레이드</string>
+    <string name="Apply">대다</string>
+    <string name="DeleteFromGallery">갤러리에서 삭제</string>
+    <string name="Yes">예</string>
+    <string name="No">아니</string>
+    <string name="AppExitMessage">종료 하시겠습니까?</string>
+    <string name="NoInternetConnection">인터넷에 연결되어 있지 않습니다!</string>
+    <string name="OK">괜찮아</string>
+    <string name="NoInternetMessage">당신은 인터넷 데이터 연결과 연결되어 있어야합니다 또는 오프라인에서 지금 CutPaste를 사용할 수 있으며 \'광고 및 오프라인 사용 제거\' 구입하여 귀찮은 광고를 모두 영구히 제거 할 수 있습니다.</string>
+    <string name="NoForegroundAdded">포 그라운드가 추가되지 않았습니다.</string>
+    <string name="CompleteActionUsing">다음을 사용하여 작업 완료</string>
+    <string name="ShareImage">이미지 공유</string>
+    <string name="CropAndApply">자르기 과 대다</string>
+    <string name="SaveToForegroundGallery">전경에 저장</string>
+    <string name="SaveToPhotoAlbum">갤러리에 저장</string>
+        <string name="RestoreToast">구매 항목이 복원되었습니다.</string>
+        <string name="SuccessfullySaveForegroundGallery">전경 갤러리에 성공적으로 저장되었습니다.</string>
+    <string name="SuccessfullySavePhotoAlbum">사진 앨범에 성공적으로 저장되었습니다.</string>
+    <string name="text">空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。</string>
+    <string name="AreYouSureMsg">이미지를 삭제 하시겠습니까?</string>
+    <string name="GoSettingsMsg">사진 및 저장 공간에 액세스해야합니다.\n
+CutPastePhoto 사진 및 저장 공간에 액세스하여 편집 된 사진을 만들고 저장하십시오. 언제든지 설정 / 앱 / CutPastePhoto / 권한으로 이동하여 권한을 변경할 수 있습니다.</string>
+
+    <string name="ChangeBG">배경 변경</string>
+    <string name="EditBG">배경 수정</string>
+    <string name="MoreApps">더 많은 애플 리케이션</string>
+
+
+    <string name="Eventbrite_Cover_Image">Eventbrite 표지 이미지</string>
+    <string name="Etsy_Cover">Etsy 커버</string>
+    <string name="Wattpad_Cover">Wattpad 커버</string>
+    <string name="Youtube_Channel_Cover">Youtube 채널 커버</string>
+    <string name="Youtube_Video_Thumbnail">Youtube 비디오 미리보기</string>
+    <string name="LinkedIn_Background">LinkedIn 배경</string>
+    <string name="LinkedIn_Post">LinkedIn 포스트</string>
+    <string name="Pinterest_Pin">Pinterest Pin</string>
+    <string name="Twitter_Header">Twitter 헤더</string>
+    <string name="Twitter_Landscape">Twitter 포스트 풍경</string>
+    <string name="Instagram_Landscape">Instagram 조경 게시물</string>
+    <string name="Instagram_Portrait">Instagram 세로 포스트</string>
+    <string name="Facebook_Event">Facebook 이벤트 커버</string>
+    <string name="Facebook_Profile">Facebook 프로필 커버</string>
+    <string name="Facebook_Cover_Mobile">Facebook 페이지 커버 모바일</string>
+    <string name="Facebook_Cover_Desktop">Facebook 페이지 데스크탑 커버</string>
+    <string name="Facebook_Portrait">Facebook 세로 포스트</string>
+    <string name="Facebook_Landscape">Facebook 풍경 포스트</string>
+    <string name="square">사각형</string>
+    <string name="original">실물</string>
+
+    <string name="CropFrameTitle">종횡비</string>
+    <string name="UnlockCropFrame">모든 자르기 종횡비 잠금 해제</string>
+
+</resources>

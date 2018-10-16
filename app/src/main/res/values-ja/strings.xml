@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">カットペースト</string>
+    <string name="Backgrounds">背景</string>
+    <string name="Foregrounds">前景</string>
+    <string name="Stickers">ステッカー</string>
+    <string name="Cancel">取消</string>
+    <string name="Done">完了</string>
+    <string name="SampleText">サンプルテキスト</string>
+    <string name="Keyboard">キーボード</string>
+    <string name="Color">色</string>
+    <string name="HelpSettings">ヘルプ&amp;サポート</string>
+    <string name="Store">格納</string>
+    <string name="Help">助け</string>
+    <string name="TellAFriend">友達に伝える</string>
+    <string name="ContactUs">お問い合わせ</string>
+    <string name="ShareApp">共有アプリ</string>
+    <string name="RateUs">レビューを与える</string>
+    <string name="Font">フォント</string>
+    <string name="FollowUs">お問い合わせ</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Instagram">Instagram</string>
+    <string name="LinkedIn">LinkedIn</string>
+    <string name="TellAFriendMessage">私はこのアプリは非常に便利だと思う。 私はあなたもそれが好きかもしれないと思う！ 見てみな：</string>
+    <string name="AppLink">アプリリンク</string>
+    <string name="CutPastePhoto">Cut Paste Photo</string>
+    <string name="ContactUsTitle">カット貼り写真のフィードバック</string>
+    <string name="ContactUsBody">ここにあなたのメッセージを書く..</string>
+    <string name="DeviceOS">Device OS: Android</string>
+    <string name="version">Device OS version: </string>
+    <string name="AppVersion">App Version: </string>
+    <string name="DeviceBrand">Device Brand: </string>
+    <string name="DeviceModel">Device Model: </string>
+    <string name="DeviceManufacturer">Device Manufacturer:</string>
+    <string name="Share">シェア</string>
+    <string name="SaveToAlbum">ギャラリーに保存</string>
+    <string name="Filter">フィルタ</string>
+    <string name="Blend">ブレンド</string>
+    <string name="ShareURLMessage">このアプリケーションをお勧めします</string>
+    <string name="CompanyName">Odyssey Apps Ltd.</string>
+    <string name="Offset">オフセット距離</string>
+    <string name="Size">サイズ</string>
+
+    <string name="AdvertisementsTitle">広告とオフラインの使用</string>
+    <string name="TextFontsTitle">テキストフォント</string>
+    <string name="TextColorsTitle">テキストの色</string>
+    <string name="RemoveAdvertisements">広告とオフライン使用を削除する</string>
+    <string name="UnlockBackground">100以上のユニークな背景テンプレートのロックを解除</string>
+    <string name="UnlockStickers">100以上の素晴らしいステッカーをアンロック</string>
+    <string name="UnlockColors">70以上の素晴らしいテキストの色をロック解除する</string>
+    <string name="UnlockFonts">60以上のスタイリッシュなテキストフォントをロック解除する</string>
+    <string name="Restore">リストア</string>
+    <string name="BuyPro">購入</string>
+    <string name="Crop">作物</string>
+    <string name="PHOTO_LIBRARY">フォトライブラリー</string>
+    <string name="CAMERA">カメラ</string>
+    <string name="Settings">設定</string>
+
+    <string name="PRO_VERSION">プロにアップグレードする</string>
+    <string name="Apply">適用</string>
+    <string name="DeleteFromGallery">ギャラリーからの削除</string>
+    <string name="Yes">はい</string>
+    <string name="No">いいえ</string>
+    <string name="AppExitMessage">退出しますか？</string>
+    <string name="NoInternetConnection">インターネットに接続できません！</string>
+    <string name="OK">はい</string>
+    <string name="NoInternetMessage">あなたはインターネットデータ接続に接続する必要がありますか、オフラインでCutPasteを使用し、「広告とオフラインの使用を取り除く」を購入して、迷惑な広告をすべて削除してください。</string>
+    <string name="NoForegroundAdded">フォアグラウンドが追加されない</string>
+    <string name="CompleteActionUsing">を使用してアクションを完了</string>
+    <string name="ShareImage">イメージを共有</string>
+    <string name="CropAndApply">作物と適用</string>
+    <string name="SaveToForegroundGallery">前景に保存</string>
+    <string name="SaveToPhotoAlbum">ギャラリーに保存</string>
+        <string name="RestoreToast">あなたの購入は復元されました。</string>
+        <string name="SuccessfullySaveForegroundGallery">フォアグラウンドギャラリーに保存されました。</string>
+    <string name="SuccessfullySavePhotoAlbum">フォトアルバムに保存されました。</string>
+    <string name="text">空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。</string>
+    <string name="AreYouSureMsg">この画像を削除してもよろしいですか？</string>
+    <string name="GoSettingsMsg">写真とストレージへのアクセスが必要\n
+CutPastePhoto写真とストレージにアクセスして、編集した写真を作成して保存します。 あなたは、常に設定/アプリ/ CutPastePhoto /権限に行くことによって、あなたの許可を変更することができます。</string>
+
+    <string name="ChangeBG">背景を変更する</string>
+    <string name="EditBG">背景を編集する</string>
+    <string name="MoreApps">より多くのアプリケーション</string>
+
+
+    <string name="Eventbrite_Cover_Image">EventBrite表紙画像</string>
+    <string name="Etsy_Cover">Etsyカバー</string>
+    <string name="Wattpad_Cover">Wattpadカバー</string>
+    <string name="Youtube_Channel_Cover">Youtubeチャンネルカバー</string>
+    <string name="Youtube_Video_Thumbnail">Youtube Videoサムネイル</string>
+    <string name="LinkedIn_Background">LinkedInの背景</string>
+    <string name="LinkedIn_Post">LinkedInのポスト</string>
+    <string name="Pinterest_Pin">Pinterestのピン</string>
+    <string name="Twitter_Header">Twitterヘッダー</string>
+    <string name="Twitter_Landscape">Twitterの投稿風景</string>
+    <string name="Instagram_Landscape">Instagram景観郵便</string>
+    <string name="Instagram_Portrait">Instagramポートレートポスト</string>
+    <string name="Facebook_Event">Facebookのイベントカバー</string>
+    <string name="Facebook_Profile">Facebookプロフィールカバー</string>
+    <string name="Facebook_Cover_Mobile">Facebookページカバーモバイル</string>
+    <string name="Facebook_Cover_Desktop">Facebookページカバーデスクトップ</string>
+    <string name="Facebook_Portrait">Facebookのポートレートポスト</string>
+    <string name="Facebook_Landscape">Facebookの風景ポスト</string>
+    <string name="square">正方形</string>
+    <string name="original">元の</string>
+
+    <string name="CropFrameTitle">アスペクト比</string>
+    <string name="UnlockCropFrame">すべてのクロッピングアスペクト比のロックを解除</string>
+
+</resources>

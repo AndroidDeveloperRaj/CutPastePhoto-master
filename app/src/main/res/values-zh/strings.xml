@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">剪切和粘贴</string>
+    <string name="Backgrounds">背景</string>
+    <string name="Foregrounds">前景</string>
+    <string name="Stickers">贴纸</string>
+    <string name="Cancel">取消</string>
+    <string name="Done">完成</string>
+    <string name="SampleText">示例文本</string>
+    <string name="Keyboard">键盘</string>
+    <string name="Color">颜色</string>
+    <string name="HelpSettings">帮助&amp;支持</string>
+    <string name="Store">商店</string>
+    <string name="Help">帮帮</string>
+    <string name="TellAFriend">告诉一个朋友</string>
+    <string name="ContactUs">联系我们</string>
+    <string name="ShareApp">分享应用</string>
+    <string name="RateUs">给一个评论</string>
+    <string name="Font">字体</string>
+    <string name="FollowUs">联系我们</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Instagram">Instagram</string>
+    <string name="LinkedIn">LinkedIn</string>
+    <string name="TellAFriendMessage">我觉得这个应用程序非常有用。 我想你也可能喜欢它！ 一探究竟：</string>
+    <string name="AppLink">应用链接</string>
+    <string name="CutPastePhoto">Cut Paste Photo</string>
+    <string name="ContactUsTitle">对于剪切粘贴照片的反馈</string>
+    <string name="ContactUsBody">在这里撰写您的信息..</string>
+    <string name="DeviceOS">Device OS: Android</string>
+    <string name="version">Device OS version: </string>
+    <string name="AppVersion">App Version: </string>
+    <string name="DeviceBrand">Device Brand: </string>
+    <string name="DeviceModel">Device Model: </string>
+    <string name="DeviceManufacturer">Device Manufacturer:</string>
+    <string name="Share">分享</string>
+    <string name="SaveToAlbum">保存到图库</string>
+    <string name="Filter">过滤</string>
+    <string name="Blend">混合</string>
+    <string name="ShareURLMessage">让我推荐你这个应用程序</string>
+    <string name="CompanyName">Odyssey Apps Ltd.</string>
+    <string name="Offset">偏移距离</string>
+    <string name="Size">尺寸</string>
+
+    <string name="AdvertisementsTitle">广告和离线使用</string>
+    <string name="TextFontsTitle">文本字体</string>
+    <string name="TextColorsTitle">文本颜色</string>
+    <string name="RemoveAdvertisements">删除广告和离线用法</string>
+    <string name="UnlockBackground">解锁100多个独特的背景模板</string>
+    <string name="UnlockStickers">解锁100多个惊人的贴纸</string>
+    <string name="UnlockColors">解锁70多种惊人的文字颜色</string>
+    <string name="UnlockFonts">解锁60多种时尚的文字字体</string>
+    <string name="Restore">恢复</string>
+    <string name="BuyPro">购买</string>
+    <string name="Crop">作物</string>
+    <string name="PHOTO_LIBRARY">照片库</string>
+    <string name="CAMERA">相机</string>
+    <string name="Settings">设置</string>
+
+    <string name="PRO_VERSION">升级到高级版本</string>
+    <string name="Apply">应用</string>
+    <string name="DeleteFromGallery">从图库中删除</string>
+    <string name="Yes">是</string>
+    <string name="No">没有</string>
+    <string name="AppExitMessage">你想退出吗？</string>
+    <string name="NoInternetConnection">没有网络连接！</string>
+    <string name="OK">好</string>
+    <string name="NoInternetMessage">您必须连接互联网数据连接，或者您现在可以在离线状态下使用CutPaste，并通过购买“移除广告和离线使用方式”永久移除所有令人讨厌的广告。</string>
+    <string name="NoForegroundAdded">没有前景添加</string>
+    <string name="CompleteActionUsing">完成操作使用</string>
+    <string name="ShareImage">分享图像</string>
+    <string name="CropAndApply">作物和应用</string>
+    <string name="SaveToForegroundGallery">保存到前景</string>
+    <string name="SaveToPhotoAlbum">保存到图库</string>
+    <string name="RestoreToast">您的购买已恢复。</string>
+    <string name="SuccessfullySaveForegroundGallery">成功保存到前台画廊。</string>
+    <string name="SuccessfullySavePhotoAlbum">成功保存到相册。</string>
+    <string name="text">空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。</string>
+    <string name="AreYouSureMsg">您确定要删除此图片吗？</string>
+    <string name="GoSettingsMsg">需要访问照片和存储\n
+让CutPastePhoto访问您的照片和存储以创建并保存编辑后的照片。 您可以随时通过设置/应用/ CutPastePhoto /权限更改权限。</string>
+
+    <string name="ChangeBG">换背景</string>
+    <string name="EditBG">编辑背景</string>
+    <string name="MoreApps">更多应用程序</string>
+
+    <string name="Eventbrite_Cover_Image">Eventbrite封面图片</string>
+    <string name="Etsy_Cover">Etsy封面</string>
+    <string name="Wattpad_Cover">Wattpad封面</string>
+    <string name="Youtube_Channel_Cover">Youtube频道封面</string>
+    <string name="Youtube_Video_Thumbnail">Youtube视频缩略图</string>
+    <string name="LinkedIn_Background">LinkedIn背景</string>
+    <string name="LinkedIn_Post">LinkedIn帖子</string>
+    <string name="Pinterest_Pin">Pinterest Pin</string>
+    <string name="Twitter_Header">Twitter标题</string>
+    <string name="Twitter_Landscape">Twitter发布景观</string>
+    <string name="Instagram_Landscape">Instagram风景帖</string>
+    <string name="Instagram_Portrait">Instagram的肖像邮</string>
+    <string name="Facebook_Event">Facebook活动封面</string>
+    <string name="Facebook_Profile">Facebook个人资料封面</string>
+    <string name="Facebook_Cover_Mobile">Facebook页面封面手机</string>
+    <string name="Facebook_Cover_Desktop">Facebook页面封面桌面</string>
+    <string name="Facebook_Portrait">Facebook肖像邮报</string>
+    <string name="Facebook_Landscape">Facebook风景邮报</string>
+    <string name="square">正方形</string>
+    <string name="original">原版的</string>
+
+    <string name="CropFrameTitle">宽高比</string>
+    <string name="UnlockCropFrame">解锁所有裁剪比率</string>
+
+</resources>

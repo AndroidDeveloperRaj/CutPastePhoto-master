@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:6:5-47
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:6:5-47
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:6:5-47
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:6:5-47
+INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:6:5-47
+	android:targetSdkVersion
+		ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:6:15-44
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+		ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:6:5-47
+		INJECTED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml
+application
+ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:8:5-53
+	android:label
+		ADDED from E:\CutPastePhoto\appRate\src\main\AndroidManifest.xml:8:18-50

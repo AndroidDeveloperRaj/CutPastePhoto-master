@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/EditTextConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.odyssey.apps.cutpastephoto.AddText.EditTextActivity">
+
+
+    <!--<FrameLayout
+        android:id="@+id/ETAdmob"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/topBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></FrameLayout>-->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/ETATextBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETAdmob">
+
+
+        <Button
+            android:id="@+id/ETACancelButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:background="#fff"
+            android:text="@string/Cancel"
+            android:textColor="#4c4d4e" />
+
+        <Button
+            android:id="@+id/ETADoneButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:background="#ffffff"
+            android:text="@string/Done"
+            android:textColor="#4c4d4e" />
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/ETAdmob"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/topBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <EditText
+
+        android:id="@+id/ETATextBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#242424"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/middleBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBar" />
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/middleBar"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/ETACollectionView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ETATextBox">
+
+        <!--<Button
+            android:id="@+id/ETAKeyboardButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="#808080"
+            android:text="@string/Keyboard"
+            android:textColor="#ffffff" />-->
+
+        <Button
+            android:id="@+id/ETAColorButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="#fff"
+            android:drawableTop="@drawable/color_devn"
+            android:text="@string/Color"
+            android:textSize="12sp"
+            android:textColor="#4c4d4e" />
+
+        <Button
+            android:id="@+id/ETAFontButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:drawableTop="@drawable/font_devn"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:background="#fff"
+            android:text="@string/Font"
+            android:textSize="12sp"
+            android:textColor="#4c4d4e" />
+    </RelativeLayout>
+
+
+    <GridView
+        android:id="@+id/ETACollectionView"
+        android:layout_width="0dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="3dp"
+        android:columnWidth="40dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="auto_fit"
+        android:paddingStart="3dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/middleBar" />
+
+</android.support.constraint.ConstraintLayout>

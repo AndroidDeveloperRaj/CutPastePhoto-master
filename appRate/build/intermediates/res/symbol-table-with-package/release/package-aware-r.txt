@@ -1,0 +1,2 @@
+com.tjeannin.apprate
+string app_name

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "357805053180",
+    "firebase_url": "https://android-apps-c9047.firebaseio.com",
+    "project_id": "android-apps-c9047",
+    "storage_bucket": "android-apps-c9047.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357805053180:android:7ba0306077deaf61",
+        "android_client_info": {
+          "package_name": "com.odyssey.apps.cutpastephoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357805053180-j3dns9tgvmp6q7uustivjpts05kqf5vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvD4N9oi-DpwTC3XFJZEprIob7YuEPO18"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

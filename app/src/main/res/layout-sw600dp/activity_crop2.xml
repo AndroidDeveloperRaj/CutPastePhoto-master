@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context="com.odyssey.apps.cutpastephoto.CropActivity2">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/ACAdmob"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/ACAdmob"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/cropImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout"></FrameLayout>
+
+    <Button
+        android:id="@+id/doneCrop"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="#fff"
+        android:onClick="cropDone"
+        android:text="@string/Done"
+        android:textColor="#4c4d4e"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cancelCrop"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.theartofdev.edmodo.cropper.CropImageView xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cropImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/ACAdmob" />
+
+    <Button
+        android:id="@+id/cancelCrop"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:onClick="cropCancel"
+        android:text="@string/Cancel"
+        android:textColor="#4c4d4e"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/Crop"
+        android:textColor="#4c4d4e"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toStartOf="@+id/doneCrop"
+        app:layout_constraintStart_toEndOf="@+id/cancelCrop"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<HorizontalScrollView-->
+    <!--android:id="@+id/horizontalScrollView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="90dp"-->
+    <!--android:background="#555555"-->
+    <!--android:scrollbars="none"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent">-->
+
+
+    <!--<android.support.constraint.ConstraintLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="90dp">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_marginStart="6dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="Original"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/r_1_1"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Original"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView" />-->
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView2"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="r_1_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/r_1_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView2"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Square"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView2"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView3"-->
+    <!--android:layout_width="43dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="r_2_3"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/r_2_3"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView2"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView3"-->
+    <!--android:layout_width="43dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="2:3"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView3" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView4"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="r_3_2"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/r_3_2"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView3"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView4"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="3:2"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView4"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView4" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView5"-->
+    <!--android:layout_width="49dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="r_3_4"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/r_3_4"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView4"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView5"-->
+    <!--android:layout_width="49dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="3:4"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView5"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView5" />-->
+
+
+    <!--&lt;!&ndash;&lt;!&ndash;android:onClick="testLock"&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/textView4"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="0dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="1" />&ndash;&gt;-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView6"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="r_4_3"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/r_4_3"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView5"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView6"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="4:3"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView6"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView6" />-->
+
+
+    <!--&lt;!&ndash;&lt;!&ndash;android:onClick="testAdd"&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/textView5"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="0dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="1" />&ndash;&gt;-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView7"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_4_3"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/f_r_4_3"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView6"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock7"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_4_3"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView7"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView7" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView7"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Facebook Landscape Post"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView7"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView7" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView8"-->
+    <!--android:layout_width="43dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_2_3"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/f_r_2_3"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView7"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock8"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_2_3"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="33dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView8"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView8" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView8"-->
+    <!--android:layout_width="43dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Facebook Portrait Post"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="7sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView8"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView8" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView9"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_2p6_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/f_r_2p6_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView8"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock9"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_2p6_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView9"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView9" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView9"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Facebook Page Cover Desktop"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView9"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView9" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView10"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_2_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/f_r_2_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView9"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock10"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_2_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView10"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView10" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView10"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Facebook Page Cover Mobile"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView10"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView10" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView11"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_2p7_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/f_r_2p7_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView10"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock11"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_2p7_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView11"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView11" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView11"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Facebook Profile Cover"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView11"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView11" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView12"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_1p9_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/f_r_1p9_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView11"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock12"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="f_r_1p9_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView12"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView12" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView12"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Facebook Event Cover"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView12"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView12" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView13"-->
+    <!--android:layout_width="52dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="i_r_4_5"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/i_r_4_5"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView12"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock13"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="i_r_4_5"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="42dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView13"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView13" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView13"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Instagram Portrait Post"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView13"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView13" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView14"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="i_r_1p91_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/i_r_1p91_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView13"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock14"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="i_r_1p91_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView14"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView14" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView14"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Instagram Landscape Post"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView14"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView14" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView15"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="t_r_16_9"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/t_r_16_9"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView14"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock15"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="t_r_16_9"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView15"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView15" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView15"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Twitter Post Landscape"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView15"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView15" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView16"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="t_r_3_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/t_r_3_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView15"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock16"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="t_r_3_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView16"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView16" />-->
+
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView16"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Twitter Header"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView16"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView16" />-->
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView17"-->
+    <!--android:layout_width="43dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="p_r_2_3"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/p_r_2_3"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView16"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock17"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="p_r_2_3"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="33dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView17"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView17" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView17"-->
+    <!--android:layout_width="43dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Pinterest Pin"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView17"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView17" />-->
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView18"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="l_r_1p4_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/l_r_1p4_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView17"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock18"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="l_r_1p4_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView18"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView18" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView18"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="LinkedIn Post"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView18"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView18" />-->
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView19"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="l_r_2_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/l_r_2_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView18"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock19"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="l_r_2_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView19"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView19" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView19"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="LinkedIn Background"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView19"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView19" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView20"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="y_r_16_9"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/y_r_16_9"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView19"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock20"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="y_r_16_9"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView20"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView20" />-->
+
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView20"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Youtube Video Thumbnail"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView20"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView20" />-->
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView21"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="y_r_1p8_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/y_r_1p8_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView20"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock21"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="y_r_1p8_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView21"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView21" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView21"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Youtube Channel Cover"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView21"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView21" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView22"-->
+    <!--android:layout_width="42dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="w_r_16_25"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/w_r_16_25"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView21"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock22"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="w_r_16_25"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="32dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView22"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView22" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView22"-->
+    <!--android:layout_width="42dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Wattpad Cover"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView22"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView22" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView23"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="et_r_4_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/et_r_4_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView22"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock23"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="et_r_4_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView23"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView23" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView23"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Etsy Cover"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView23"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView23" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView24"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="ev_r_2_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/ev_r_2_1"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginRight="6dp"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView23"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewLock24"-->
+    <!--android:layout_width="10dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="ev_r_2_1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/lock2"-->
+    <!--android:layout_marginStart="55dp"-->
+    <!--android:layout_marginRight="6dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView24"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView24" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView25"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:text="Eventbrite Cover Image"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="8sp"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView24"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView24" />-->
+
+
+
+    <!--</android.support.constraint.ConstraintLayout>-->
+
+    <!--</HorizontalScrollView>-->
+
+</android.support.constraint.ConstraintLayout>

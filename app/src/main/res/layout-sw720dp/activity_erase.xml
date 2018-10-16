@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/ERAdmob"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:visibility="visible">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+
+        <LinearLayout
+            android:id="@+id/ll_top_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/iv_undo"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/ic_undo" />
+
+            <ImageView
+                android:id="@+id/iv_redo"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/ic_redo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/iv_done"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Done"
+            android:textColor="#4c4d4e"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/iv_cancel"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Cancel"
+            android:textColor="#4c4d4e"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/rl_image_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/pattern">
+
+
+
+        <com.odyssey.apps.cutpastephoto.TouchImageView
+
+            android:id="@+id/drawingImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+        <com.odyssey.apps.cutpastephoto.BrushImageView
+
+            android:id="@+id/brushContainingView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+
+        android:id="@+id/widthcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="@string/Size"
+            android:textColor="#4c4d4e" />
+
+        <SeekBar
+            android:id="@+id/sb_width"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:paddingBottom="13dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="13dp"
+            android:progressDrawable="@drawable/progress"
+            android:thumb="@drawable/tthmp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="@string/Offset"
+            android:textColor="#4c4d4e" />
+
+        <SeekBar
+            android:id="@+id/sb_offset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:paddingBottom="13dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="13dp"
+            android:progressDrawable="@drawable/progress"
+            android:thumb="@drawable/tthmp" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
